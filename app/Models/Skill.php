@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Skill extends Model
 {
     use HasFactory;
+
+    protected $fillable = ['applicant_id', 'skill_name'];
+
+    public function applicant()
+    {
+        return $this->belongsTo(Applicant::class);
+    }
 }
+
