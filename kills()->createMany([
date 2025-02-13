@@ -1,0 +1,10 @@
+[90m= [39m[34;4mApp\Models\Education[39;24m {#6216
+    [34minstitution_name[39m: "[32mHarvard University[39m",
+    [34mdegree[39m: "[32mBSc Computer Science[39m",
+    [34myear[39m: [35m2015[39m,
+    [34mapplicant_id[39m: [35m1[39m,
+    [34mupdated_at[39m: "[32m2025-02-13 07:05:07[39m",
+    [34mcreated_at[39m: "[32m2025-02-13 07:05:07[39m",
+    [34mid[39m: [35m1[39m,
+  }
+

@@ -8,9 +8,7 @@ Route::get('/', function () {
     // return view('welcome');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/dashboard', [ProfileController::class,'index'])->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/profile/{id}', [ProfileController::class, 'show'])->name('profile.show');
 
