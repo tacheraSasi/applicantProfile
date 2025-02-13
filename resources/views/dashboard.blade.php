@@ -29,7 +29,7 @@
                             <td class="border border-neutral-300 dark:border-neutral-600 px-4 py-2">
                                 <a href="{{ route('profile.show', $applicant->id) }}" 
                                     class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded">
-                                    View Profile
+                                    View
                                 </a>
                             </td>
                         </tr>
