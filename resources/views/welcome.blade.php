@@ -60,8 +60,8 @@
     <div class="flex flex-col items-center justify-center h-screen fade-in">
         <h1 class="text-5xl font-bold mb-6">Welcome to Tachera SASI Application</h1>
         <p class="text-lg opacity-80">A simple Laravel demo application showcasing my skills.</p>
-        <p class="mt-2 opacity-70">Use <b>demo@gmail.com</b> and <b>password: demo</b> to log in.</p>
-        <a href="{{ route('dashboard') }}" class="mt-6 px-6 py-3 bg-blue-500 text-white text-lg font-medium rounded-lg shadow-lg hover:bg-blue-600 transition">Get Started</a>
+        <p class="mt-2 opacity-70">Use <b>demo@gmail.com</b> and <b>password: demodemo</b> to log in.</p>
+        <a href="{{ route('dashboard') }}" class="mt-6 px-6 py-3 bg-neutral-500 text-white text-lg font-medium rounded-lg shadow-lg hover:bg-neutral-600 transition">Get Started</a>
     </div>
 
     <canvas id="particle-canvas"></canvas>
