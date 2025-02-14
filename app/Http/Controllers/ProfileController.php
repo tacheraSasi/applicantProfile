@@ -14,7 +14,7 @@ class ProfileController extends Controller
 {
     public function show($id)
     {
-        $applicant = Applicant::with(['education', 'experience', 'skills'])->findOrFail($id);
+        $applicant = Applicant::with(['education', 'skills'])->findOrFail($id);
         return view('profile', compact('applicant'));
     }
 
