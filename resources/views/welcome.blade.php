@@ -161,38 +161,6 @@
     </div>
 
     <script>
-        // Clock update function
-        function updateClock() {
-            const clockElement = document.getElementById('clock');
-            const dateElement = document.getElementById('date');
-            const now = new Date();
-
-            let hours = now.getHours().toString().padStart(2, '0');
-            let minutes = now.getMinutes().toString().padStart(2, '0');
-            let seconds = now.getSeconds().toString().padStart(2, '0');
-            clockElement.textContent = `${hours}:${minutes}:${seconds}`;
-
-            const options = {
-                weekday: 'long',
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-            };
-            dateElement.textContent = now.toLocaleDateString(undefined, options);
-        }
-
-        function searchGoogle(event) {
-            if (event.key === 'Enter') {
-                const query = document.getElementById('search').value;
-                window.open(`https://www.google.com/search?q=${encodeURIComponent(query)}`, '_blank');
-                query = ""
-            }
-        }
-
-
-        setInterval(updateClock, 1000);
-        updateClock();
-
         // Particle effect
         function particleEffect() {
             const canvas = document.getElementById('particle-canvas');
